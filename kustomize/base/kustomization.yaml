@@ -1,0 +1,3 @@
+resources:
+- httpd-deployment.yaml
+- nginx-deployment.yaml
