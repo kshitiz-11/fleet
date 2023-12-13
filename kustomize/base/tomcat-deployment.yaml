@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tomcat
+spec:
+  selector:
+    matchLabels:
+      app: tomcat  # Updated label
+      tier: web   # Updated label
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tomcat  # Updated label
+        tier: web   # Updated label
+    spec:
+      containers:
+        - name: tomcat
+          image: tomcat:latest
