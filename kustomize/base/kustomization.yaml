@@ -1,4 +1,5 @@
 resources:
 - httpd-deployment.yaml
 - nginx-deployment.yaml
-- tomcat-deployment.yaml  
+- tomcat-deployment.yaml 
+- tomcat-deployment.yaml 
